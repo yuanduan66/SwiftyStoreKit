@@ -111,9 +111,9 @@ class InAppReceiptVerificator: NSObject {
      
         validator.validate(receiptData: receiptData) { result in
             
-            DispatchQueue.main.async {
+//            DispatchQueue.main.async {
                 completion(result)
-            }
+//            }
         }
     }
 }
